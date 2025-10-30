@@ -1,0 +1,23 @@
+# Thư mục môi trường ảo
+venv/
+env/
+ENV/
+
+# File Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Model (tùy chọn không commit)
+model/
+*.joblib
+
+# Data (không commit file lớn)
+data/
